@@ -166,3 +166,165 @@ footer {
     white-space: nowrap;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+a,
+button,
+textarea {
+  font: inherit;
+}
+body {
+  padding-top: 0px; /* Adjust to the height of your navbar */
+}
+
+.modular-grid {
+  width: 3rem;
+}
+
+/* Apply background color to navbar */
+.navbar {
+  background-color: #1a2456 !important;
+}
+
+/* Change text color (brand + links) to pink */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ff8b68 !important;
+}
+
+/* Optional: Make hover effects match (so it stays pink when hovering) */
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #f86639 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #1a2456 !important;
+  color: #ff8b68 !important;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(simon-hughes-.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 70px;
+}
+
+main {
+  background-color: #f0efed;
+}
+
+.console-for-workflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem;
+}
+
+.console-for {
+  color: #ff8b68;
+  font-weight: 800;
+  font-size: clamp(1rem, 3rem, 5rem);
+  font-family: "Poppins", sans-serif;
+}
+
+.perfect-console {
+  color: #ff8b68;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #1a2456;
+  color: #ff8b68;
+  font-size: small;
+}
+
+#email {
+  border: 1px solid #ff8b68;
+  background-color: #1a2456;
+  color: white;
+}
+::placeholder {
+  color: #ff8b68 !important;
+}
+
+#submit {
+  border: none;
+  background-color: #fcc4b3;
+  color: #1a2456;
+  border-radius: 0.25rem;
+  font-size: small;
+  border-radius: 4px; 
+  padding: 8px 16px;
+}
+
+.image-change-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.first-text-under {
+  color: #1a2456;
+  font-weight: 800;
+  font-size: larger;
+}
+.second-text-under {
+  color: #1a2456;
+  margin-top: -10px;
+}
+
+.keyboard-image {
+  max-height: 480px;
+}
+
+.get-your-own-section {
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.6),
+      rgba(100, 100, 100, 0.6)
+    ),
+    url(gamepad3D1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 88vh;
+}
+
+.create-console-text {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-ons-text {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 480px){
+    .console-for{
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+    .perfect-console{
+        white-space: nowrap;
+    }
+    
+}

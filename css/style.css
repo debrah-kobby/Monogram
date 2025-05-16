@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 /*RESET*/
 * {
   margin: 0;
@@ -82,6 +84,79 @@ header {
   color: #ff8b68;
   font-family: "Poppins", sans-serif;
 }
+.image-change-and-text-container {
+  width: 360px;
+  max-width: 100%;
+}
+.image-change-container {
+  position: relative;
+}
+
+.second-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.image-change-container:hover .second-image {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.pre-order {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: rgb(255, 94, 0);
+  color: #1a2456;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 0.75rem;
+
+  z-index: 10;
+}
+
+.sold-out {
+  color: grey;
+  padding: 0.2rem;
+  position: absolute;
+  right: 0px;
+}
+
+.shop-now-container {
+  position: relative;
+}
+.container-for-price-and-shop {
+  position: absolute;
+  right: 12px;
+}
+.card-shop-nows {
+  font-weight: 500;
+  font-size: 0.8rem;
+  position: absolute;
+  right: -2px;
+  opacity: 0;
+  background-color: #1a2456;
+  color: white;
+  border-radius: 20px;
+  padding: 0.4rem;
+
+  top: 3px;
+
+  transition: opacity 0.2s;
+  width: 80px;
+  white-space: nowrap;
+}
+.container-for-price-and-shop:hover .card-shop-nows {
+  opacity: 1;
+  cursor: pointer;
+}
+
 /*MAIN GRIDS*/
 
 /*FOOTER*/
@@ -113,11 +188,11 @@ footer {
 }
 /*FOOTER*/
 
-.image-change-container img {
+/* .image-change-container img {
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 .first-text-under {
   color: #1a2456;
@@ -127,10 +202,6 @@ footer {
 .second-text-under {
   color: #1a2456;
   margin-top: -10px;
-}
-
-.keyboard-image {
-  max-height: 480px;
 }
 
 /*GAMEPAD*/

@@ -52,7 +52,7 @@ main {
   color: #ff8b68 !important;
 }
 
-header {
+.first-thing-seen {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(simon-hughes-.jpg);
   height: 100vh;
@@ -228,6 +228,340 @@ footer {
 }
 /*GAMEPAD*/
 
+/*MINI-CONSOLE*/
+/* .mini-console-page-header {
+  padding-top: 80px;
+}
+ */
+.mini-console-html {
+  background-color: #f0efed;
+}
+
+.section-1-in-mini-console {
+  margin-top: 6rem;
+}
+.mini-console-heading-with-pre-order {
+  display: flex;
+  gap: 1.2rem;
+}
+.mini-console-heading-alone {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1a2456;
+}
+.pre-order-heading-alone {
+  background-color: #f86639;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a2456;
+  padding: 0.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.money-and-stars {
+  display: flex;
+  gap: 2rem;
+}
+.stars-container-1 {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  font-weight: 100;
+}
+.money-and-stars i {
+  font-weight: 600;
+  color: #1a2456;
+}
+.money-and-stars i:hover {
+  cursor: pointer;
+}
+/* .one100-stars-rating {
+  background-color: #ff8b68;
+  border-radius: 10px;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  margin-top: -5px;
+} */
+.one100-stars-rating {
+  background-color: #ff8b68;
+  color: #1a2456;
+
+  font-weight: 500;
+
+  display: inline-block;
+
+  padding: 2px 8px;
+  border-radius: 12px;
+
+  font-weight: bold;
+
+  font-size: 11px;
+
+  vertical-align: middle;
+  margin-top: -2px;
+  height: 20px;
+}
+
+.now-price-one {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ff8b68;
+}
+.cancelled-price-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #1a2456;
+  text-decoration: line-through;
+  margin-left: -29px;
+}
+.or-4-interests-text {
+  color: #1a2456;
+}
+.tooltip-1 {
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+}
+.tooltip-text-1 {
+  opacity: 0;
+  visibility: hidden;
+  width: 250px;
+  background-color: #1a2456;
+  color: #fff;
+  text-align: left;
+  padding: 5px;
+  border-radius: 6px;
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.85rem;
+}
+.tooltip-1:hover .tooltip-text-1 {
+  visibility: visible;
+  opacity: 1;
+}
+.sezzle-it-now-1 {
+  background-color: #0f1438;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0.3rem;
+  font-weight: 600;
+}
+.slect-how-many-and-sold-out-1 {
+  display: flex;
+
+  margin-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+#how-many {
+  border-radius: 15px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border: 3px solid #0f1438;
+}
+
+.sold-out-button-1 button {
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(101, 110, 134);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.7rem;
+}
+
+.sold-out-button-1:hover button {
+  cursor: not-allowed;
+}
+.preorders-will-resume-once-1 {
+  display: flex;
+  color: #1a2456;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*ACCORDION*/
+
+/* Base styling */
+.custom-accordion {
+  background-color: #f0efed !important;
+  border: none;
+  font-family: "Arial", sans-serif;
+}
+.custom-accordion {
+  background-color: none;
+  outline: none;
+}
+
+/* Remove default accordion borders */
+.custom-accordion .accordion-item {
+  border: 1px solid #1d2c57;
+  border-left: none;
+  border-right: none;
+}
+
+/* Style the header button */
+.custom-accordion .accordion-button {
+  background-color: #f0efed;
+  color: #1d2c57;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Override Bootstrap's default icon (arrow) */
+.custom-accordion .accordion-button::after {
+  content: "+";
+  font-size: 1.2rem;
+  color: #1d2c57;
+  background-image: none !important;
+  transform: none !important;
+}
+
+/* Change icon when open */
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  content: "-";
+}
+
+/* Style accordion content */
+.custom-accordion .accordion-body {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #1d2c57;
+  border-top: 1px solid #ddd;
+  background-color: #f0efed;
+  text-align: left;
+}
+
+/*ACCORDION*/
+.monogram-creator-app-1 {
+  background-color: #1d2c57;
+  color: white;
+  padding: 3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* .container h2 {
+  color: #1a2456;
+} */
+.reviews-and-writes-container-1 {
+  margin-top: 4rem;
+}
+
+.reviews-and-write-a-review-1 {
+  display: flex;
+}
+.write-a-review-1 {
+  margin-left: auto;
+  background-color: #1a2456;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 15px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.write-a-review-1:hover {
+  cursor: pointer;
+  background-color: #0f1438;
+}
+.reviews-1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a2456;
+  text-decoration: underline;
+  text-underline-offset: 21px;
+  text-decoration-thickness: 4px;
+}
+
+.Baileys-profile {
+  border-radius: 100px;
+  width: 120px;
+}
+.reviwer-details-and-actual-review {
+  display: flex;
+  flex-direction: column;
+}
+.reviwer-name-other-details-and-date {
+  display: flex;
+  color: #1a2456;
+}
+
+.date-reviewed-1 {
+  margin-left: auto;
+}
+.reviwer-name-and-verified {
+  display: flex;
+  gap: 2rem;
+}
+.reviewer-name-verifier-and-stars {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.verified-buyer {
+  margin-top: 8px;
+}
+.actual-review {
+  margin-top: 1rem;
+  color: #1a2456;
+}
+/*MINI-CONSOLE*/
+
+.Back-to-the-shop-link a {
+  text-decoration: none;
+  color: #ff8b68;
+}
+
+.Back-to-the-shop-link:hover a {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .mini-console-heading-with-pre-order {
+    margin-top: 1rem;
+  }
+  .pre-order-heading-alone {
+    margin-left: 1.5rem;
+  }
+  .stars-container-1 {
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pre-order-heading-alone {
+    margin-left: 1rem;
+    letter-spacing: 2px;
+  }
+  .stars-container-1 {
+    margin-left: 7rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .console-for {
     font-size: 2rem;
@@ -235,5 +569,8 @@ footer {
   }
   .perfect-console {
     white-space: nowrap;
+  }
+  .mini-console-heading-with-pre-order {
+    margin-top: 1rem;
   }
 }

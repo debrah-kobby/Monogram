@@ -25,7 +25,7 @@ textarea {
 body {
   padding-top: 0px;
 }
-main {
+.shop-page-main {
   background-color: #f0efed;
 }
 /*NAVBAR*/
@@ -56,11 +56,12 @@ main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(simon-hughes-.jpg);
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   padding-top: 70px;
 }
+
 /*NAVBAR*/
 
 /*MAIN GRIDS*/
@@ -227,7 +228,37 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 /*GAMEPAD*/
+.index-thing-seen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(shopping-new-hero-image-1.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 70px;
+}
+.shop-now-button-index {
+  background-color: #ff8b68;
+  border-radius: 20px;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #1d2c57;
+  text-decoration: none;
+  font-weight: 700;
+}
 
+.shop-now-index-div {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.shop-now-index-div:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+  border: 2px solid #1d2c57;
+  transition: transform 0.1s;
+}
 /*MINI-CONSOLE*/
 /* .mini-console-page-header {
   padding-top: 80px;
@@ -530,6 +561,217 @@ footer {
   color: #1a2456;
 }
 /*MINI-CONSOLE*/
+/*SUPPORT HTML*/
+.blue-and-white-monogram-logo {
+  width: 7rem;
+  height: 80px;
+}
+.support-html-nav {
+  margin-top: -1rem;
+}
+#support-html-right-links {
+  color: #1a2456 !important;
+}
+.section-with-minimalistic-design-and-how-to-help-input {
+  background-image: url(ChatGPT\ Image\ May\ 17\,\ 2025\,\ 12_10_49\ PM-MINIMALISTIC-LANDSCAPE.png);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: -1rem;
+}
+
+#help {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: none;
+}
+#help::placeholder {
+  color: #1d2c57 !important;
+}
+#help:focus {
+  outline: 1px solid #0f1438;
+  border: none;
+}
+
+.welcome-to-monogram-support {
+  display: flex;
+  justify-content: center;
+  white-space: wrap;
+  text-align: center;
+  pad: 0.3rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+.monogram-support-bubbles {
+  border: 2px solid #21356e;
+  border-radius: 6px;
+  padding: 0.3rem;
+  margin: 2rem;
+  color: #21356e;
+}
+.monogram-support-bubbles:hover {
+  background-color: #0f1438;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.monogram-support-bubble-headings {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.contact-us-and-pallete-gear-support-html {
+  font-size: 2rem;
+}
+.cant-find-get-in-touch-support-html {
+  font-size: 0.8rem;
+}
+.submit-a-request-support-html {
+  padding: 0.3rem;
+  background-color: #21356e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.submit-a-request-support-html:hover {
+  background-color: #0f1438;
+  transition: background-color 0.2s;
+}
+.submit-a-request-support-html-div {
+  margin-top: 0.4rem;
+}
+.information-on-pallette-dear-users-support-html {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.information-on-pallette-dear-users-support-html:hover {
+  text-decoration: underline;
+  color: #1a2456;
+}
+.last-section-support-html {
+  margin-bottom: 8rem;
+}
+.monogram-support-last-text-support-html {
+  color: grey;
+  margin-bottom: 6rem;
+}
+.monogram-support-last-text-support-html:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1a2456;
+}
+.pallete-gear-text-support-html {
+  margin-top: 0.4rem;
+}
+/*SUPPORT HTML*/
+/*DOWNLOAD HTML*/
+.download-html-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(Image\ May\ 17\,\ 2025\,\ 02_31_12\ PM-Downlaod-hero-1.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero-textt-download-html {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f86639;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+.hero-text-monogram-creator-download-html {
+  font-weight: 500;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.hero-text-software-downloads-download-html {
+  font-weight: 300;
+  font-size: 1.8rem;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.monogram-creator-download-html {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 21px;
+  text-decoration-thickness: 4px;
+  color: #1d2c57;
+  font-weight: 500;
+}
+.section-with-apple-and-windows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: #fcc4b3;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.apple-and-windows-div {
+  display: flex;
+  gap: 4rem;
+}
+.monogram-creator-in-apple-and-windows-section {
+  font-size: 1.8rem;
+  color: #1a2456;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.text-above-apple-and-windows {
+  color: #1d2c57;
+  font-size: 1rem;
+}
+.text-above-apple-and-windows a {
+  color: #1d2c57;
+}
+.apple-logo {
+  font-size: 5rem;
+  color: #1d2c57;
+  margin-left: 0.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.first-text-under-logo {
+  color: #1d2c57;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.apple-and-windows-div button {
+  background-color: #1a2456;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 500;
+}
+.release-notes a {
+  color: #1d2c57;
+  display: flex;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+/*DOWNLOAD HTML*/
 
 .Back-to-the-shop-link a {
   text-decoration: none;
@@ -549,6 +791,10 @@ footer {
   }
   .stars-container-1 {
     margin-left: 7rem;
+  }
+
+  #help {
+    width: 70vw;
   }
 }
 
@@ -572,5 +818,23 @@ footer {
   }
   .mini-console-heading-with-pre-order {
     margin-top: 1rem;
+  }
+  #help {
+    width: 70vw;
+    padding: 0.5rem;
+  }
+  .blue-and-white-monogram-logo {
+    width: 9rem;
+    height: 120px;
+  }
+  .support-html-nav {
+    margin-left: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .shop-now-button-index {
+    padding-left: 0.8rem;
+    padding-right: 0.6rem;
   }
 }

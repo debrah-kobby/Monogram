@@ -491,9 +491,6 @@ footer {
   margin-bottom: 1rem;
 }
 
-/* .container h2 {
-  color: #1a2456;
-} */
 .reviews-and-writes-container-1 {
   margin-top: 4rem;
 }
@@ -573,7 +570,7 @@ footer {
   color: #1a2456 !important;
 }
 .section-with-minimalistic-design-and-how-to-help-input {
-  background-image: url(ChatGPT\ Image\ May\ 17\,\ 2025\,\ 12_10_49\ PM-MINIMALISTIC-LANDSCAPE.png);
+  background-image: url(MINIMALISTIC-LANDSCAPE.png);
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -675,7 +672,7 @@ footer {
 /*DOWNLOAD HTML*/
 .download-html-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(Image\ May\ 17\,\ 2025\,\ 02_31_12\ PM-Downlaod-hero-1.png);
+    url(hero-1.png);
   height: 70vh;
   background-position: center;
   background-size: cover;

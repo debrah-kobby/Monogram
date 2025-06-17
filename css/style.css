@@ -1,0 +1,837 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+a,
+button,
+textarea {
+  font: inherit;
+}
+/*RESET*/
+
+body {
+  padding-top: 0px;
+}
+.shop-page-main {
+  background-color: #f0efed;
+}
+/*NAVBAR*/
+.modular-grid {
+  width: 3rem;
+}
+
+.navbar {
+  background-color: #1a2456 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ff8b68 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #f86639 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #1a2456 !important;
+  color: #ff8b68 !important;
+}
+
+.first-thing-seen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(simon-hughes-.jpg);
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+  padding-top: 70px;
+}
+
+/*NAVBAR*/
+
+/*MAIN GRIDS*/
+
+.console-for-workflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem;
+}
+
+.console-for {
+  color: #ff8b68;
+  font-weight: 800;
+  font-size: clamp(1rem, 3rem, 5rem);
+  font-family: "Poppins", sans-serif;
+}
+
+.perfect-console {
+  color: #ff8b68;
+  font-family: "Poppins", sans-serif;
+}
+.image-change-and-text-container {
+  width: 360px;
+  max-width: 100%;
+}
+.image-change-container {
+  position: relative;
+}
+
+.second-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.image-change-container:hover .second-image {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.pre-order {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: rgb(255, 94, 0);
+  color: #1a2456;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 0.75rem;
+
+  z-index: 10;
+}
+
+.sold-out {
+  color: grey;
+  padding: 0.2rem;
+  position: absolute;
+  right: 0px;
+}
+
+.shop-now-container {
+  position: relative;
+}
+.container-for-price-and-shop {
+  position: absolute;
+  right: 12px;
+}
+.card-shop-nows {
+  font-weight: 500;
+  font-size: 0.8rem;
+  position: absolute;
+  right: -2px;
+  opacity: 0;
+  background-color: #1a2456;
+  color: white;
+  border-radius: 20px;
+  padding: 0.4rem;
+
+  top: 3px;
+
+  transition: opacity 0.2s;
+  width: 80px;
+  white-space: nowrap;
+}
+.container-for-price-and-shop:hover .card-shop-nows {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*MAIN GRIDS*/
+
+/*FOOTER*/
+footer {
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #1a2456;
+  color: #ff8b68;
+  font-size: small;
+}
+
+#email {
+  border: 1px solid #ff8b68;
+  background-color: #1a2456;
+  color: white;
+}
+::placeholder {
+  color: #ff8b68 !important;
+}
+
+#submit {
+  border: none;
+  background-color: #fcc4b3;
+  color: #1a2456;
+  border-radius: 0.25rem;
+  font-size: small;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+/*FOOTER*/
+
+/* .image-change-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+.first-text-under {
+  color: #1a2456;
+  font-weight: 800;
+  font-size: larger;
+}
+.second-text-under {
+  color: #1a2456;
+  margin-top: -10px;
+}
+
+/*GAMEPAD*/
+.get-your-own-section {
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.6),
+      rgba(100, 100, 100, 0.6)
+    ),
+    url(gamepad3D1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 88vh;
+}
+
+.create-console-text {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-ons-text {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+/*GAMEPAD*/
+.index-thing-seen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(shopping-new-hero-image-1.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 70px;
+}
+.shop-now-button-index {
+  background-color: #ff8b68;
+  border-radius: 20px;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #1d2c57;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.shop-now-index-div {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.shop-now-index-div:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+  border: 2px solid #1d2c57;
+  transition: transform 0.1s;
+}
+/*MINI-CONSOLE*/
+/* .mini-console-page-header {
+  padding-top: 80px;
+}
+ */
+.mini-console-html {
+  background-color: #f0efed;
+}
+
+.section-1-in-mini-console {
+  margin-top: 6rem;
+}
+.mini-console-heading-with-pre-order {
+  display: flex;
+  gap: 1.2rem;
+}
+.mini-console-heading-alone {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1a2456;
+}
+.pre-order-heading-alone {
+  background-color: #f86639;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a2456;
+  padding: 0.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.money-and-stars {
+  display: flex;
+  gap: 2rem;
+}
+.stars-container-1 {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  font-weight: 100;
+}
+.money-and-stars i {
+  font-weight: 600;
+  color: #1a2456;
+}
+.money-and-stars i:hover {
+  cursor: pointer;
+}
+/* .one100-stars-rating {
+  background-color: #ff8b68;
+  border-radius: 10px;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  margin-top: -5px;
+} */
+.one100-stars-rating {
+  background-color: #ff8b68;
+  color: #1a2456;
+
+  font-weight: 500;
+
+  display: inline-block;
+
+  padding: 2px 8px;
+  border-radius: 12px;
+
+  font-weight: bold;
+
+  font-size: 11px;
+
+  vertical-align: middle;
+  margin-top: -2px;
+  height: 20px;
+}
+
+.now-price-one {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ff8b68;
+}
+.cancelled-price-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #1a2456;
+  text-decoration: line-through;
+  margin-left: -29px;
+}
+.or-4-interests-text {
+  color: #1a2456;
+}
+.tooltip-1 {
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+}
+.tooltip-text-1 {
+  opacity: 0;
+  visibility: hidden;
+  width: 250px;
+  background-color: #1a2456;
+  color: #fff;
+  text-align: left;
+  padding: 5px;
+  border-radius: 6px;
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.85rem;
+}
+.tooltip-1:hover .tooltip-text-1 {
+  visibility: visible;
+  opacity: 1;
+}
+.sezzle-it-now-1 {
+  background-color: #0f1438;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0.3rem;
+  font-weight: 600;
+}
+.slect-how-many-and-sold-out-1 {
+  display: flex;
+
+  margin-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+#how-many {
+  border-radius: 15px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border: 3px solid #0f1438;
+}
+
+.sold-out-button-1 button {
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(101, 110, 134);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.7rem;
+}
+
+.sold-out-button-1:hover button {
+  cursor: not-allowed;
+}
+.preorders-will-resume-once-1 {
+  display: flex;
+  color: #1a2456;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*ACCORDION*/
+
+/* Base styling */
+.custom-accordion {
+  background-color: #f0efed !important;
+  border: none;
+  font-family: "Arial", sans-serif;
+}
+.custom-accordion {
+  background-color: none;
+  outline: none;
+}
+
+/* Remove default accordion borders */
+.custom-accordion .accordion-item {
+  border: 1px solid #1d2c57;
+  border-left: none;
+  border-right: none;
+}
+
+/* Style the header button */
+.custom-accordion .accordion-button {
+  background-color: #f0efed;
+  color: #1d2c57;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Override Bootstrap's default icon (arrow) */
+.custom-accordion .accordion-button::after {
+  content: "+";
+  font-size: 1.2rem;
+  color: #1d2c57;
+  background-image: none !important;
+  transform: none !important;
+}
+
+/* Change icon when open */
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  content: "-";
+}
+
+/* Style accordion content */
+.custom-accordion .accordion-body {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #1d2c57;
+  border-top: 1px solid #ddd;
+  background-color: #f0efed;
+  text-align: left;
+}
+
+/*ACCORDION*/
+.monogram-creator-app-1 {
+  background-color: #1d2c57;
+  color: white;
+  padding: 3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.reviews-and-writes-container-1 {
+  margin-top: 4rem;
+}
+
+.reviews-and-write-a-review-1 {
+  display: flex;
+}
+.write-a-review-1 {
+  margin-left: auto;
+  background-color: #1a2456;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 15px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.write-a-review-1:hover {
+  cursor: pointer;
+  background-color: #0f1438;
+}
+.reviews-1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a2456;
+  text-decoration: underline;
+  text-underline-offset: 21px;
+  text-decoration-thickness: 4px;
+}
+
+.Baileys-profile {
+  border-radius: 100px;
+  width: 120px;
+}
+.reviwer-details-and-actual-review {
+  display: flex;
+  flex-direction: column;
+}
+.reviwer-name-other-details-and-date {
+  display: flex;
+  color: #1a2456;
+}
+
+.date-reviewed-1 {
+  margin-left: auto;
+}
+.reviwer-name-and-verified {
+  display: flex;
+  gap: 2rem;
+}
+.reviewer-name-verifier-and-stars {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.verified-buyer {
+  margin-top: 8px;
+}
+.actual-review {
+  margin-top: 1rem;
+  color: #1a2456;
+}
+/*MINI-CONSOLE*/
+/*SUPPORT HTML*/
+.blue-and-white-monogram-logo {
+  width: 7rem;
+  height: 80px;
+}
+.support-html-nav {
+  margin-top: -1rem;
+}
+#support-html-right-links {
+  color: #1a2456 !important;
+}
+.section-with-minimalistic-design-and-how-to-help-input {
+  background-image: url(MINIMALISTIC-LANDSCAPE.png);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: -1rem;
+}
+
+#help {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: none;
+}
+#help::placeholder {
+  color: #1d2c57 !important;
+}
+#help:focus {
+  outline: 1px solid #0f1438;
+  border: none;
+}
+
+.welcome-to-monogram-support {
+  display: flex;
+  justify-content: center;
+  white-space: wrap;
+  text-align: center;
+  pad: 0.3rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+.monogram-support-bubbles {
+  border: 2px solid #21356e;
+  border-radius: 6px;
+  padding: 0.3rem;
+  margin: 2rem;
+  color: #21356e;
+}
+.monogram-support-bubbles:hover {
+  background-color: #0f1438;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.monogram-support-bubble-headings {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.contact-us-and-pallete-gear-support-html {
+  font-size: 2rem;
+}
+.cant-find-get-in-touch-support-html {
+  font-size: 0.8rem;
+}
+.submit-a-request-support-html {
+  padding: 0.3rem;
+  background-color: #21356e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.submit-a-request-support-html:hover {
+  background-color: #0f1438;
+  transition: background-color 0.2s;
+}
+.submit-a-request-support-html-div {
+  margin-top: 0.4rem;
+}
+.information-on-pallette-dear-users-support-html {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.information-on-pallette-dear-users-support-html:hover {
+  text-decoration: underline;
+  color: #1a2456;
+}
+.last-section-support-html {
+  margin-bottom: 8rem;
+}
+.monogram-support-last-text-support-html {
+  color: grey;
+  margin-bottom: 6rem;
+}
+.monogram-support-last-text-support-html:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1a2456;
+}
+.pallete-gear-text-support-html {
+  margin-top: 0.4rem;
+}
+/*SUPPORT HTML*/
+/*DOWNLOAD HTML*/
+.download-html-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(hero-1.png);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero-textt-download-html {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f86639;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+.hero-text-monogram-creator-download-html {
+  font-weight: 500;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.hero-text-software-downloads-download-html {
+  font-weight: 300;
+  font-size: 1.8rem;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.monogram-creator-download-html {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 21px;
+  text-decoration-thickness: 4px;
+  color: #1d2c57;
+  font-weight: 500;
+}
+.section-with-apple-and-windows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: #fcc4b3;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.apple-and-windows-div {
+  display: flex;
+  gap: 4rem;
+}
+.monogram-creator-in-apple-and-windows-section {
+  font-size: 1.8rem;
+  color: #1a2456;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.text-above-apple-and-windows {
+  color: #1d2c57;
+  font-size: 1rem;
+}
+.text-above-apple-and-windows a {
+  color: #1d2c57;
+}
+.apple-logo {
+  font-size: 5rem;
+  color: #1d2c57;
+  margin-left: 0.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.first-text-under-logo {
+  color: #1d2c57;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.apple-and-windows-div button {
+  background-color: #1a2456;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 500;
+}
+.release-notes a {
+  color: #1d2c57;
+  display: flex;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+/*DOWNLOAD HTML*/
+
+.Back-to-the-shop-link a {
+  text-decoration: none;
+  color: #ff8b68;
+}
+
+.Back-to-the-shop-link:hover a {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .mini-console-heading-with-pre-order {
+    margin-top: 1rem;
+  }
+  .pre-order-heading-alone {
+    margin-left: 1.5rem;
+  }
+  .stars-container-1 {
+    margin-left: 7rem;
+  }
+
+  #help {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pre-order-heading-alone {
+    margin-left: 1rem;
+    letter-spacing: 2px;
+  }
+  .stars-container-1 {
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .console-for {
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+  .perfect-console {
+    white-space: nowrap;
+  }
+  .mini-console-heading-with-pre-order {
+    margin-top: 1rem;
+  }
+  #help {
+    width: 70vw;
+    padding: 0.5rem;
+  }
+  .blue-and-white-monogram-logo {
+    width: 9rem;
+    height: 120px;
+  }
+  .support-html-nav {
+    margin-left: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .shop-now-button-index {
+    padding-left: 0.8rem;
+    padding-right: 0.6rem;
+  }
+}

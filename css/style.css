@@ -21,6 +21,12 @@ textarea {
   font: inherit;
 }
 /*RESET*/
+html {
+  scroll-behavior: smooth;
+  touch-action: pan-y;
+
+  overflow-x: hidden;
+}
 
 body {
   padding-top: 0px;
